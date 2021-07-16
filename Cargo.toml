@@ -1,10 +1,10 @@
 [package]
-name = "rust-hello"
+name = "rust-hello-world"
 version = "0.1.0"
 edition = "2018"
 description = "テストクレートです"
 license = "MIT"
-documentation = "https://docs.rs/rust-hello/"
+documentation = "https://docs.rs/rust-hello-world/"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
