@@ -1,6 +1,6 @@
-// use rust_hello_test::hello_rust;
+use rust_hello_test::lib_hello;
 
 fn main() {
-    println!("a")
+    lib_hello();
     // hello_rust::print_hello();
 }
