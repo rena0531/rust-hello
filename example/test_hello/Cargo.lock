@@ -4,9 +4,9 @@ version = 3
 
 [[package]]
 name = "rust_hello_test"
-version = "0.1.4"
+version = "0.1.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3d2964f3052ed45b4a75385419bd98350057120433785d50d9d28c224b9113d4"
+checksum = "eb74a7dd73e6729980d54e056037fd1c00f3bc0eb15c29b9907a656c2b50e583"
 
 [[package]]
 name = "test_hello"
