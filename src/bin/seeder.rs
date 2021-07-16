@@ -20,6 +20,6 @@ fn read_dir<P: AsRef<Path>>(path: P) -> io::Result<Vec<String>> {
 fn main() {
   let path = env::current_dir().unwrap();
   println!("starting dir: {:?}", path.display());
-  let format_migrate = format!("{}/migration", path.display());
+  let format_migrate = format!("{}/migrations", path.display());
   read_dir(format_migrate).unwrap();
 }
