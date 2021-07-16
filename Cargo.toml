@@ -1,6 +1,6 @@
 [package]
 name = "rust_hello_test"
-version = "0.1.4"
+version = "0.1.5"
 edition = "2018"
 description = "テストクレートです"
 license = "MIT"
@@ -11,5 +11,9 @@ documentation = "https://docs.rs/rust_hello_test/"
 [[bin]]
 name = "hello"
 path = "src/bin/hello.rs"
+
+[[bin]]
+name = "seeder"
+path = "src/bin/seeder.rs"
 
 [dependencies]
